@@ -1,225 +1,211 @@
-:root{
-    --base-color:#212121;
-    --bg-color:#FFFFFF;
-    --acent-color:#2196F3;
-    --text-color: #757575;
-    --footer-text-color:rgba(255, 255, 255, 0.6);
-    --footer-bg-color: #2F303A;
-    --button-bg-color:#F5F4FA;
-
+:root {
+  --base-color: #212121;
+  --bg-color: #ffffff;
+  --acent-color: #2196f3;
+  --text-color: #757575;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --footer-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
 }
 
-body{
-    color: var(--bg-color);
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
+body {
+  color: var(--bg-color);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
 }
 /* logo */
 
-.logo{
-    color: var(--base-color);
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+.logo {
+  color: var(--base-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
-.web{
-    color: var(--acent-color);
+.web {
+  color: var(--acent-color);
 }
 
 /* navigation */
 
-.site-nav{
-    list-style: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    
+.site-nav {
+  list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link{
-    text-decoration: none;
-    color: var(--base-color);
+.site-nav .link {
+  text-decoration: none;
+  color: var(--base-color);
 }
 
-.auth-nav{
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    list-style: none;
-    
+.auth-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
 }
 
-.auth-nav .link{
-    text-decoration: none;
-    color: var(--text-color);
+.auth-nav .link {
+  text-decoration: none;
+  color: var(--text-color);
 }
 
 .auth-nav .link:hover,
-.auth-nav .link:focus{
-    color: var(--acent-color);
+.auth-nav .link:focus {
+  color: var(--acent-color);
 }
 
 /* hero */
 
-.hero{
-    background-color: var(--footer-bg-color)
+.hero {
+  background-color: var(--footer-bg-color);
 }
 
-.hero-title{
-    color: var(--bg-color);  
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
+.hero-title {
+  color: var(--bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
-.hero .button{
-    background-color: var(--acent-color);
-    color: var(--bg-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    text-align: center;
-    letter-spacing: 0.06em;
-    cursor: pointer;
+.hero .button {
+  background-color: var(--acent-color);
+  color: var(--bg-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* features */
-.section{
-    color: var(--text-color);
+.section {
+  color: var(--text-color);
 }
 
-.section-title{
-    color: var(--base-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-
+.section-title {
+  color: var(--base-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
-.feature-list{
-    list-style: none;
+.feature-list {
+  list-style: none;
 }
 
-.feature-list-title{
-    color: var(--base-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-
+.feature-list-title {
+  color: var(--base-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
-.feature-list .text{
-
-    font-size: 14px;
-    line-height: 1.71;
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 /* work-list */
 
-.work-list{
-    list-style: none;
+.work-list {
+  list-style: none;
 }
 
 /* worker */
 
-.worker-list{
-    list-style: none;
+.worker-list {
+  list-style: none;
 }
 
-.worker-list-title{
-    color: var(--base-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-
+.worker-list-title {
+  color: var(--base-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 
-.worker-list .text{
-    
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
+.worker-list .text {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
 }
 /* footer */
 
-.footer{
-    background-color: var(--footer-bg-color);
+.footer {
+  background-color: var(--footer-bg-color);
 }
-.footer .logo{
-    color: var(--bg-color);
-}
-
-.footer-list{
-    list-style: none;
-    
-    font-size: 14px;
-    line-height: 1.71;
-
+.footer .logo {
+  color: var(--bg-color);
 }
 
-.footer-list .link{
-    text-decoration: none;
-    color: var(--bg-color);
+.footer-list {
+  list-style: none;
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
-.footer-list .mail{
-    color: var(--text-color);
+.footer-list .link {
+  text-decoration: none;
+  color: var(--bg-color);
 }
 
-.footer-list .tel{
-    color: var(--text-color);
+.footer-list .mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-list .tel {
+  color: rgba(255, 255, 255, 0.6);
 }
 /* portfolio */
 
-.button-list{
-  
-    list-style: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    cursor: pointer;
+.button-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
 }
 
-.button-list .button{
-    color: var(--base-color);
-    background-color: var(--button-bg-color);
-    
-    
+.button-list .button {
+  color: var(--base-color);
+  background-color: var(--button-bg-color);
 }
 
 .button-list .button:hover,
-.button-list .button:focus{
-    color: var(--bg-color);
-    background-color: var(--acent-color);
+.button-list .button:focus {
+  color: var(--bg-color);
+  background-color: var(--acent-color);
 }
 
-.business-list{
-    list-style: none;
+.business-list {
+  list-style: none;
 }
 
-.business-list-title{
-    color: var(--base-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-
+.business-list-title {
+  color: var(--base-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.business-list .text{
-    font-size: 16px;
-    line-height: 1.87;
+.business-list .text {
+  font-size: 16px;
+  line-height: 1.87;
 }
